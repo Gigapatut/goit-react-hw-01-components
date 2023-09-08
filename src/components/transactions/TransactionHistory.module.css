@@ -1,0 +1,29 @@
+.transaction {
+     background-color: white;
+     border: 1px solid rgb(69, 64, 64);
+     table-layout: fixed;
+     width: 60%;
+     border-collapse: collapse;
+     border: 2px solid rgb(69, 64, 64);
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+     font-size: 18px;
+
+}
+.thead {
+     background-color: rgb(126, 199, 231);
+     color: white;
+}
+.tableHeader {
+     
+     border: 1px solid rgb(69, 64, 64);  
+}
+.tableData {
+     color: rgb(2, 19, 114);
+     padding: 10px;
+     border: 1px solid rgb(69, 64, 64);
+     text-align: center;
+     text-transform: capitalize;
+}
+.tableRow:nth-child(even) {
+     background-color: #c1f4f8;
+}

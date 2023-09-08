@@ -1,0 +1,17 @@
+.statistics {
+    
+}
+.title {
+    text-align: center;
+}
+.list {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.item {    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(71, 169, 92);
+}
