@@ -2,10 +2,11 @@ import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
-
   return (
     <section className={css.statistics}>
-      {title != null && <h2 className={css.title}>{title}</h2>}
+      {title && 
+        <h2 className={css.title}>{title}</h2>
+      }
       <ul className={css.list}>
         {stats.map(stat => (
           <li className={css.item} key={stat.id}>
